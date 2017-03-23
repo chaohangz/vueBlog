@@ -1,12 +1,17 @@
 # blog
 
-> A Vue.js project
+> 前端 vue + vue-router + vue-resource
+> 后端 node + express + mongoose
 
 ## Build Setup
 
 ``` bash
-# install dependencies
+# 安装依赖
 npm install
+
+# 打开mongodb 并打开node
+mongod
+node app
 
 # serve with hot reload at localhost:8080
 npm run dev
@@ -15,4 +20,3 @@ npm run dev
 npm run build
 ```
 
-For detailed explanation on how things work, consult the [docs for vue-loader](http://vuejs.github.io/vue-loader).
