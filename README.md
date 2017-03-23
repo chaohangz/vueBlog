@@ -1,6 +1,7 @@
 # blog
 
 > 前端 vue + vue-router + vue-resource
+
 > 后端 node + express + mongoose
 
 ## Build Setup
