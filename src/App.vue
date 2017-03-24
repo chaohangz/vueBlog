@@ -21,6 +21,18 @@
                 <span>关于</span>
               </li>
             </router-link>
+            <router-link to="/admin/articleList">
+              <li class="nav">
+                <i class="menu-item-icon fa fa-fw fa-home"></i>
+                <span>管理</span>
+              </li>
+            </router-link>
+            <router-link to="/admin/articleEdit">
+              <li class="nav">
+                <i class="menu-item-icon fa fa-fw fa-home"></i>
+                <span>写文章</span>
+              </li>
+            </router-link>
           </ul>
         </nav>
         <div class="info">
@@ -94,7 +106,7 @@
     padding: 0;
     list-style: none;
     text-decoration: none;
-    font-faminly: Source Sans Pro, Helvetica Neue, Arial, sans-serif;
+    font-family: "Helvetica Neue",Helvetica,"PingFang SC","Hiragino Sans GB","Microsoft YaHei","微软雅黑",Arial,sans-serif;
   }
 
   a {

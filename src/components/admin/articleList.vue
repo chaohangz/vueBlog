@@ -17,7 +17,8 @@
     name: 'article',
     data() {
       return {
-        articleList: []
+        articleList: [],
+        visible2: false
       }
     },
     mounted: function () {
@@ -34,18 +35,32 @@
       },
       // 删除文章
       deleteArticle: function (id) {
-        this.$http.post('/api/admin/deleteArticle', {
-          _id: id
-        }).then(
-          response => {
-            console.log('删除文章成功')
-            this.fetchData()
-          },
-          response => {
-            console.log('文章删除失败')
-            console.log(response)
-          }
-        )
+        let self = this
+        this.$confirm('此操作将永久删除该文章, 是否继续?', '提示', {
+          confirmButtonText: '确定',
+          cancelButtonText: '取消',
+          type: 'warning'
+        }).then(() => {
+          self.$http.post('/api/admin/deleteArticle', {
+            _id: id
+          }).then(
+            response => {
+              self.$message({
+                type: 'success',
+                message: '删除成功!'
+              });
+              self.fetchData()
+            },
+            response => {
+              console.log(response)
+            }
+          )
+        }).catch(() => {
+          this.$message({
+            type: 'info',
+            message: '已取消删除'
+          });
+        });
       },
       // 更新数据
       fetchData: function () {

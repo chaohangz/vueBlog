@@ -28,7 +28,6 @@
         this.$http.get('/api/articleDetail/' + this.$route.params.id).then(
           response => {
             let article = response.body
-            console.log(article)
             this.title = article.title
             this.content = article.content
             this.gist = article.gist
@@ -42,15 +41,27 @@
       saveArticle: function () {
         let self = this
         if (this.title.length === 0) {
-          alert('请输入标题')
+          this.$notify({
+            title: '提醒',
+            message: '请输入标题',
+            type: 'warning'
+          })
           return
         }
         if (this.content.length === 0) {
-          alert('请输入内容')
+          this.$notify({
+            title: '提醒',
+            message: '请输入内容',
+            type: 'warning'
+          })
           return
         }
         if (this.gist.length === 0) {
-          alert('请输入简介')
+          this.$notify({
+            title: '提醒',
+            message: '请输入简介',
+            type: 'warning'
+          })
           return
         }
         if (this.$route.params.id) {
@@ -65,7 +76,10 @@
             articleInformation: obj
           }).then(
             response => {
-              console.log('文章更新成功')
+              self.$message({
+                message: '更新文章成功',
+                type: 'success'
+              })
               // 更新完成后跳转至该文章的详情页
               self.$router.push('/articleDetail/' + self.$route.params.id)
             },
@@ -82,7 +96,10 @@
             articleInformation: obj
           }).then(
             response => {
-              console.log('文章发布成功')
+              self.$message({
+                message: '发表文章成功',
+                type: 'success'
+              })
               self.refreshArticleList()
             },
             response => console.log(response)
@@ -91,7 +108,6 @@
       },
       // 保存成功后跳转至文章列表页
       refreshArticleList: function () {
-        console.log('刷新成功')
         this.$router.push('/admin/articleList')
       }
     }
