@@ -2,7 +2,7 @@
   <div>
     <div class="edit_wrap">
       <div class="return_button">
-        <el-button icon="arrow-left" size="small" @click="goBack">上一页</el-button>
+        <el-button icon="arrow-left" size="small" @click="goBack">返回</el-button>
       </div>
       <div class="edit_head">标题</div>
       <el-input v-model="title" placeholder="请输入标题"></el-input>
@@ -183,6 +183,7 @@
                 message: '发表文章成功',
                 type: 'success'
               })
+              // 保存成功后跳转至文章列表页
               self.refreshArticleList()
             },
             response => console.log(response)
@@ -224,8 +225,7 @@
 
   .return_button {
     text-align: left;
-    margin-top: -30px;
-    margin-bottom: 10px;
+    margin-bottom: 40px;
   }
 
   .tag_wrap {

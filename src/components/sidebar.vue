@@ -8,31 +8,26 @@
       <ul>
         <router-link to="/article">
           <li class="nav">
-            <i class="menu-item-icon fa fa-fw fa-home"></i>
             <span>首页</span>
           </li>
         </router-link>
         <router-link to="/about">
           <li class="nav">
-            <i class="menu-item-icon fa fa-fw fa-home"></i>
             <span>关于</span>
           </li>
         </router-link>
         <router-link to="/admin/signin">
           <li class="nav">
-            <i class="menu-item-icon fa fa-fw fa-home"></i>
             <span>登录</span>
           </li>
         </router-link>
         <router-link to="/admin/articleList">
           <li class="nav">
-            <i class="menu-item-icon fa fa-fw fa-home"></i>
             <span>管理</span>
           </li>
         </router-link>
         <router-link to="/admin/articleEdit">
           <li class="nav">
-            <i class="menu-item-icon fa fa-fw fa-home"></i>
             <span>写文章</span>
           </li>
         </router-link>
@@ -54,25 +49,21 @@
       <ul class="communication">
         <li class="communication_item">
           <a href="#">
-            <i class="menu-item-icon fa fa-fw fa-home"></i>
             <span>GitHub</span>
           </a>
         </li>
         <li class="communication_item">
           <a href="#">
-            <i class="menu-item-icon fa fa-fw fa-home"></i>
             <span>GitHub</span>
           </a>
         </li>
         <li class="communication_item">
           <a href="#">
-            <i class="menu-item-icon fa fa-fw fa-home"></i>
             <span>GitHub</span>
           </a>
         </li>
         <li class="communication_item">
           <a href="#">
-            <i class="menu-item-icon fa fa-fw fa-home"></i>
             <span>GitHub</span>
           </a>
         </li>
