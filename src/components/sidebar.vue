@@ -18,6 +18,12 @@
             <span>关于</span>
           </li>
         </router-link>
+        <router-link to="/admin/signin">
+          <li class="nav">
+            <i class="menu-item-icon fa fa-fw fa-home"></i>
+            <span>登录</span>
+          </li>
+        </router-link>
         <router-link to="/admin/articleList">
           <li class="nav">
             <i class="menu-item-icon fa fa-fw fa-home"></i>

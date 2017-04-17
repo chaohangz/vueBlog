@@ -3,7 +3,7 @@ import VueRouter from 'vue-router'
 import VueResource from 'vue-resource'
 import App from './App.vue'
 
-import signin from './components/signin.vue'
+import signin from './components/admin/signin.vue'
 import sidebar from './components/sidebar.vue'
 import article from './components/article.vue'
 import about from './components/about.vue'
@@ -40,7 +40,7 @@ const router = new VueRouter({
     {path: '/admin/articleList', components: {default: articleList, sidebar: sidebar}},
     {path: '/admin/articleEdit', component: articleEdit},
     {path: '/admin/articleEdit/:id', component: articleEdit},
-    {path: '/signin', component: signin}
+    {path: '/admin/signin', component: signin}
   ]
 })
 

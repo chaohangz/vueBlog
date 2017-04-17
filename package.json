@@ -10,6 +10,7 @@
   },
   "dependencies": {
     "body-parser": "^1.17.1",
+    "connect-mongo": "^1.3.2",
     "element-ui": "^1.2.5",
     "express": "^4.15.2",
     "font-awesome": "^4.7.0",
