@@ -77,17 +77,22 @@ npm run dev
 ## 截图
 
 首页
+
 ![index](./screenshot/index.png)
 
 详情页
+
 ![detail](./screenshot/detail.png)
 
 登录页
+
 ![signin](./screenshot/signin.png)
 
 后台管理页
+
 ![manage](./screenshot/manage.png)
 
 编辑页
+
 ![edit](./screenshot/edit.png)
 
