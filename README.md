@@ -55,7 +55,7 @@
     | main.js
 ```
 
-How to start
+## How to start
 ``` bash
 # clone projext
 git clone git@github.com:chaohangz/blog.git
