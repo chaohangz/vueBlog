@@ -58,7 +58,7 @@
 ## How to start
 ``` bash
 # clone projext
-git clone git@github.com:chaohangz/blog.git
+git clone https://github.com/chaohangz/blog.git
 
 # 安装依赖
 cd blog
