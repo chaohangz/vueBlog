@@ -1,6 +1,6 @@
 # blog
 
-[《一个 Vue + Node + MongoDB 博客系统》](https://chaohangz.github.io/2017/04/17/vue-blog%E9%A1%B9%E7%9B%AE%E6%80%BB%E7%BB%93/#more)
+[《一个 Vue + Node + MongoDB 博客系统》](https://www.cnblogs.com/chaohangz/p/6748918.html)
 
 ## ENV
 1. Node.js v6.9.4
