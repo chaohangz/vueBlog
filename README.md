@@ -1,6 +1,6 @@
 ### 点击下面👇的广告和对仓库标星✨是对我最大的支持，感谢Thanks♪(･ω･)ﾉ
 
-[![](/screenshot/gitads.png)](https://tracking.gitads.io/?campaign=gitads&repo=vueBlog&redirect=gitads.io)
+[![](https://images.gitads.io/vueBlog)](https://tracking.gitads.io/?campaign=gitads&repo=vueBlog&redirect=gitads.io)
 
 # blog
 
