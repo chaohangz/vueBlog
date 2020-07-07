@@ -1,6 +1,6 @@
-### 点击下面👇的广告和对仓库标星✨是对我最大的支持，感谢Thanks♪(･ω･)ﾉ
+### vueBlog is being sponsored by the following tool; please help to support us by taking a look and signing up to a free trial
 
-[![](https://images.gitads.io/vueBlog)](https://tracking.gitads.io/?campaign=gitads&repo=vueBlog&redirect=gitads.io)
+<a href="https://tracking.gitads.io/?repo=vueBlog"><img src="https://images.gitads.io/vueBlog" alt="GitAds"/></a>
 
 # blog
 
