@@ -1,7 +1,3 @@
-### vueBlog is being sponsored by the following tool; please help to support us by taking a look and signing up to a free trial
-
-<a href="https://tracking.gitads.io/?repo=vueBlog"><img src="https://images.gitads.io/vueBlog" alt="GitAds"/></a>
-
 # blog
 
 [《一个 Vue + Node + MongoDB 博客系统》](https://chaohang.top/2017/04/22/%E4%B8%80%E4%B8%AA-Vue-Node-MongoDB-%E5%8D%9A%E5%AE%A2%E7%B3%BB%E7%BB%9F/)
