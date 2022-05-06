@@ -18,7 +18,7 @@
     "highlight.js": "^9.10.0",
     "lodash": "^4.17.4",
     "marked": "^0.3.6",
-    "mongoose": "^4.9.1",
+    "mongoose": "^5.9.19",
     "vue": "^2.2.1",
     "vue-awesome": "^2.2.0",
     "vue-resource": "^1.2.1",
